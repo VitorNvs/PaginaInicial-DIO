@@ -1,0 +1,89 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.signin-text { 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 236, 241);
+    border:2px solid hsla(210,18%,87%,1);
+    border-radius: 10px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 355px;
+}
+
+.input {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: #0969da;
+}
+.fpass {
+    font-size: 18px;
+}
+
+.submit-button {
+    height: 45px;
+    background-color: #2da44e;
+    color: white;
+    font-size:20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.newaccount-container {
+    background-color: white;
+    border:2px solid hsla(210,18%,87%,1);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 355px;
+    text-align: center;
+}
+
+.account {
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.footer-text {
+    font-size: 17px;
+}
+
+.contact {
+    color: gray;
+    text-decoration: none;
+}
